@@ -1,1 +1,35 @@
+@font-face {
+src: url(https://dl.dropbox.com/s/1479f8x52y3z5u4/rainyhearts.ttf);
+font-family: "hearts";
+}
 
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#main {
+    height: auto;
+    width: 300px;
+    padding: 40px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: "hearts";
+}
+
+#letter {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
